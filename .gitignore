@@ -1,0 +1,69 @@
+# Environment variables
+key.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio/Image files (temporary and generated)
+temp_recording.wav
+recorded_audio.wav
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.gif
+!test_*.jpg
+!test_*.png
+
+# Local AI Generated Outputs
+output/
+generated_*.png
+generated_*.jpg
+generated_*.jpeg
+generated_*.wav
+generated_*.mp3
+generated_*.txt
+output_*.wav
+output_*.mp3
+output_*.png
+
+# Model Cache (Hugging Face)
+.cache/
+models/
+*.bin
+*.safetensors
+*.onnx
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp_*
+tmp/
+*.tmp

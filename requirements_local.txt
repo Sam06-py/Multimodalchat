@@ -1,0 +1,36 @@
+# Local Multimodal AI Requirements (No API needed)
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+diffusers>=0.21.0
+accelerate>=0.20.0
+
+# Text-to-Speech (offline)
+pyttsx3>=2.90
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Voice input (optional - for microphone input)
+speechrecognition>=3.10.0
+pyaudio>=0.2.14
+
+# Utilities
+python-dotenv>=1.0.0
+
+# GUI Dependencies (choose one or both)
+# Gradio - Web-based interface (recommended)
+gradio>=4.0.0
+
+# Tkinter - Desktop interface (usually comes with Python, but listed for completeness)
+# tkinter is usually included with Python, but if not available:
+# Windows: Usually included
+# macOS: Usually included
+# Linux: sudo apt-get install python3-tk
+
+# Note: For better performance, install PyTorch with CUDA support if you have an NVIDIA GPU:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# For CPU-only systems, the above will work but will be slower
+
